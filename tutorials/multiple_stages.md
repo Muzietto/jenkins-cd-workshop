@@ -1,5 +1,9 @@
 # Pipeline with multiple stages
 
+Show [Jenkinsfile multiple-stages](https://github.com/jenkins-cd-workshop/multiple-stages/blob/master/Jenkinsfile)
+
+[Build multiple stages](http://localhost:8080/job/multiple-stages/)
+
 A pipeline bears this name because of its physical metaphor, bringing business value from a source code repository into increasingly realistic environments and in production. Therefore one basic feature is to define multiple `stages` that are executed sequentially, with the stage `N+1` only starting after the success of stage `N`.
 
 Run
