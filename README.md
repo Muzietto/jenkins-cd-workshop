@@ -7,7 +7,7 @@ Show plugins.txt
 Start jenkins.sh
 
 - [Setup](tutorials/setup.md)
-- [Hello world](tutorials/hello_world.md) - show Jenkins Configure
+- [Hello world](tutorials/hello_world.md)
 - [Hello world, repository version](tutorials/hello_world_repository.md)
 - [Multiple stages](tutorials/multiple_stages.md)
 - [Extracting common steps](tutorials/with_common_steps.md)
