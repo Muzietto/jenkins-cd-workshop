@@ -11,7 +11,7 @@ Start jenkins.sh
 - [Hello world, repository version](tutorials/hello_world_repository.md)
 - [Multiple stages](tutorials/multiple_stages.md)
 - [Extracting common steps](tutorials/with_common_steps.md)
-- [Building a whole Github organization](tutorials/whole_organization.md)
+- [Building all the pull requests a whole Github organization](tutorials/whole_organization.md)
 - [Build wrappers](tutorials/build_wrappers.md)
 - [Locks](tutorials/locks.md)
 - [Parallelism](tutorials/parallel.md)
