@@ -1,5 +1,7 @@
 # Hello world
 
+Show [Jenkins Configure](http://localhost:8080/job/hello-world/configure)
+
 Every new technology is always explained with an hello world example.
 
 Run
