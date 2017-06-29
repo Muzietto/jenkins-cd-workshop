@@ -1,5 +1,7 @@
 # Hello world, repository version
 
+Show [Jenkins configure](http://localhost:8080/job/hello-world/configure) && [Jenkinsfile](https://github.com/jenkins-cd-workshop/hello-world/blob/master/Jenkinsfile)
+ 
 The more metadata you store into Jenkins (or any other CI system), the more difficult will it be to evolve. Therefore once we are able to run a Hello World pipeline we should immediately strive to store its definition inside the source code repository of our project, which will make it versionable and capable of being branched, analyzed, reviewed...
 
 Run
