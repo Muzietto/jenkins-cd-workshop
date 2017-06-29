@@ -1,5 +1,12 @@
 # Locks
 
+Lock is a wrapper.
+
+Show [Jenkinsfile.locks](https://github.com/jenkins-cd-workshop/advanced-pipelines/blob/master/Jenkinsfile.locks)
+
+Build __twice__ and [build 1 acquires lock at 9:02:13](http://localhost:8080/job/locks/1/console), while [build 2 acquires lock at 9:02:35](http://localhost:8080/job/locks/2/console)
+
+
 Despite what cloud fanatics would say, there are always going to be bottlenecked external resources used to run your builds. Jenkins provides [nodes and node labels](https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md#using-agents) if what you want is just to distribute parts of builds on special machines (e.g. a Linux and a Windows system to test compatibility issues).
 
 Sometimes the dynamic is more complex, for example you have resources A, B and C that are all needed by different builds, sometimes together, sometimes one at a time. You can be more granular using `locks`, that reserve a `resource` until you unlock it. For example, I use this to lock a shared end2end testing environment where about 10 projects are deployed together: you don't want someone else to deploy project Y while you are still testing the integration of project X.
