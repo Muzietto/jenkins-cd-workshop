@@ -1,5 +1,13 @@
 # Building all the pull requests of a Github organization
 
+Show [whole-organisation Configure](http://localhost:8080/job/whole-organization/configure)
+
+Show [whole-organisation user](https://github.com/jenkins-cd-workshop)
+
+[Scan organisation now](http://localhost:8080/job/whole-organization/configure)
+
+Show [hello-world PR](http://localhost:8080/job/whole-organization/job/hello-world/view/change-requests/)
+
 Or at least the ones containing a Jenkinsfile. Remember when we [loaded credentials](setup.md) into Jenkins? Now they will become necessary.
 
 Run
