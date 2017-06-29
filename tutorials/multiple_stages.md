@@ -1,5 +1,7 @@
 # Pipeline with multiple stages
 
+Here is the first real pipeline!
+
 Show [Jenkinsfile multiple-stages](https://github.com/jenkins-cd-workshop/multiple-stages/blob/master/Jenkinsfile)
 
 [Build multiple stages](http://localhost:8080/job/multiple-stages/)
