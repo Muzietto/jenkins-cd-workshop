@@ -1,5 +1,11 @@
 # Sharing code between pipelines
 
+Show [Jenkinsfile with-common-steps](https://github.com/jenkins-cd-workshop/with-common-steps/blob/master/Jenkinsfile)
+
+Show [steps/vars/gitDifferences.groovy](https://github.com/jenkins-cd-workshop/steps/blob/master/vars/gitDifferences.groovy)
+
+Show [steps/push-into-jenkins.sh](https://github.com/jenkins-cd-workshop/steps/blob/master/push-into-jenkins.sh)
+
 A common problem with infrastructure is that code gets copied and pasted in many places. You want to maintain consistency between your projects, so that when you fix a bug or change a deployment process you have to make a single change and not intervene on each project. Like for application code, you have to remove duplication by extracting new abstractions.
 
 Run
