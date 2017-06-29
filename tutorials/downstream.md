@@ -1,5 +1,13 @@
 # Triggering downstream pipelines
 
+Show [Jenkinsfile.downstream](https://github.com/jenkins-cd-workshop/advanced-pipelines/blob/master/Jenkinsfile.downstream) and its env var
+
+Show [downstream jobs in Jenkins](http://localhost:8080/job/downstream/)
+
+Show [Jenkinsfile.upstream](https://github.com/jenkins-cd-workshop/advanced-pipelines/blob/master/Jenkinsfile.upstream) and its job param ++ env var setting
+
+[Build upstream](http://localhost:8080/job/upstream/) and show [added downstream build](http://localhost:8080/job/downstream/)
+
 Pipelines can have as many stages as you need, but in some cases it is useful to build multiple, smaller pipelines rather than trying to do everything into a single one. We gain the capability of reexecuting only part of the process by triggering a single pipeline - or to pause the execution, for example separating the testing pipeline from the production deployment one.
 
 In order to effectively link separate pipelines, we can resort to manual intervention, or use pipeline `upstream` to commit to a new branch in the Git repository of the project that will trigger the pipeline `downstream` using a different Jenkinsfile. For example, my testing pipeline commit to an `approved` branch that is what triggers the production deployment pipelines. The production deployment pipelines can than be disabled to pause deployments in a difficult moment, they can be triggered by humans or they can be set to build at every new commit, or periodically, and so on.
