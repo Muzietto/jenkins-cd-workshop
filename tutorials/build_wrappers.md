@@ -1,5 +1,9 @@
 # Build wrappers
 
+Show [Jenkinsfile.build-wrappers](https://github.com/jenkins-cd-workshop/advanced-pipelines/blob/master/Jenkinsfile.build-wrappers)
+
+Show [build log with effects of wrappers](http://localhost:8080/job/build-wrappers/1/console)
+
 Build wrappers are special steps that wrap your own pipeline sections (a whole pipeline, a single stage or just a few lines) as closures, providing additional behavior. We'll see two in action.
 
 Run
