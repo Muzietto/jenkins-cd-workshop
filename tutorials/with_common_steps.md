@@ -6,6 +6,8 @@ Show [steps/vars/gitDifferences.groovy](https://github.com/jenkins-cd-workshop/s
 
 Show [steps/push-into-jenkins.sh](https://github.com/jenkins-cd-workshop/steps/blob/master/push-into-jenkins.sh)
 
+Endpoint is ssh://$USERNAME@$JENKINS:$PORT/workflowLibs.git
+
 A common problem with infrastructure is that code gets copied and pasted in many places. You want to maintain consistency between your projects, so that when you fix a bug or change a deployment process you have to make a single change and not intervene on each project. Like for application code, you have to remove duplication by extracting new abstractions.
 
 Run
