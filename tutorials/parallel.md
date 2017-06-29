@@ -1,5 +1,7 @@
 # Parallelism
 
+Show [Jenkinsfile.parallel](https://github.com/jenkins-cd-workshop/advanced-pipelines/blob/master/Jenkinsfile.parallel)
+
 Pipelines are a serial execution at their outermost scope: a series of stages. However, some of the steps inside a stage can be executed in parallel to save time and better utilize the multiple cores that your machines have. Unlike other tools like Go CD that constrain you to their model of serial and parallel execution - was a job inside a task or the other way around - Jenkins pipelines just default their steps to serial and give you a construct for executing closures in parallel. This is like a Lisp of build systems: given these primitives you can do anything that a real programming language can do.
 
 Run
